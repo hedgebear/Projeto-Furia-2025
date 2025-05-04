@@ -22,7 +22,7 @@ Bem-vindo ao Bot da FURIA! Um chatbot interativo feito para os fãs da equipe de
 - [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
 - HTML + CSS puro (Landing page)
 - GitHub + VSCode
-- Netlify (deploy da landing page)
+- Streamlit -- Landing Page
 
 ---
 
