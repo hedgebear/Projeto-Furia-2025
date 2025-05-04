@@ -13,7 +13,7 @@ from telegram.ext import (
     ContextTypes,
     CallbackQueryHandler,
     Defaults,
-    Persistence
+    PicklePersistence  # Nova importação
 )
 from dotenv import load_dotenv
 
@@ -333,7 +333,7 @@ def main():
     application = ApplicationBuilder() \
         .token(TOKEN) \
         .defaults(defaults) \
-        .persistence(Persistence()) \
+        .persistence(PicklePersistence(filepath="bot_data")) \
         .build()
 
     # Add handlers
